@@ -44,6 +44,7 @@ services:
       DARKSKY_API_CALLS: 1000
       GEOCODE_API_URL: https://maps.googleapis.com/maps/api/geocode/json
       GEOCODE_API_TOKEN: AIzaSyAOt5c4hCHvioYKNXVARGOKUqSv8hdgCP4
+      RESTCOUNTRIES_API_URL: https://restcountries.eu/rest/v2
       CACHE_INTERVAL: 87
 
   redis:
