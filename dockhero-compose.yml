@@ -2,7 +2,7 @@ version: "2"
 
 services:
   client:
-    image: rodrwan/madams:v0.0.1
+    image: rodrwan/madams:latest
     networks:
       - traefik
     depends_on:
@@ -20,7 +20,7 @@ services:
       REACT_APP_GMARCONE_API_URL: http://dockhero-rugged-50468.dockhero.io
 
   server:
-    image: rodrwan/gmarcone:v0.0.1
+    image: rodrwan/gmarcone:latest
     networks:
       - traefik
     depends_on:
